@@ -1,0 +1,11 @@
+1. What are the matrix to check the model accurcy? eg: confusion, ROC
+
+2. what is cluster and cluster algo?
+
+3. What is nlp algo
+
+4. There are 4 tablets, 2 fever and 2 headache, don't know which tablet of what how to take the tables?
+Ans: Just make a half of all the tables and take all.
+
+5. how to find the missing values in series?
+Ans: apply the formula n*n-1/2
