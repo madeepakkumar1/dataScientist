@@ -3,3 +3,6 @@
 
 #Food inflation
 1. https://www.ons.gov.uk/file?uri=/economy/inflationandpriceindices/articles/researchindicesusingwebscrapedpricedata/may2016update/researchindicesusingwebscrapeddatamay2016.pdf 
+
+# Machine Learning
+1. https://github.com/susanli2016/Machine-Learning-with-Python
