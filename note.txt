@@ -6,3 +6,6 @@
 
 # Machine Learning
 1. https://github.com/susanli2016/Machine-Learning-with-Python
+
+#Black Friday
+1. https://github.com/rouseguy/BlackFridayDataHack/blob/master/notebook/Stacked_Model.ipynb
