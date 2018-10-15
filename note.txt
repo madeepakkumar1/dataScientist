@@ -12,3 +12,6 @@
 
 # Find Top Keyword
 https://github.com/findconvergence/text-parser
+
+# Time Series
+1. https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html
