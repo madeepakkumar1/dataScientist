@@ -15,3 +15,6 @@ https://github.com/findconvergence/text-parser
 
 # Time Series
 1. https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html
+
+# Bokeh Tutorial
+1. http://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/tutorial/00%20-%20Introduction%20and%20Setup.ipynb
