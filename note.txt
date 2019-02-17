@@ -18,3 +18,6 @@ https://github.com/findconvergence/text-parser
 
 # Bokeh Tutorial
 1. http://nbviewer.jupyter.org/github/bokeh/bokeh-notebooks/blob/master/tutorial/00%20-%20Introduction%20and%20Setup.ipynb
+
+# Sentimental
+1. https://www.kaggle.com/adamschroeder/countvectorizer-tfidfvectorizer-predict-comments
