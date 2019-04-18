@@ -12,6 +12,7 @@ import numpy as np
 import pandas as pd
 from sklearn import datasets
 import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
 from sklearn import model_selection
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
@@ -22,6 +23,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
+from sklearn.decomposition import PCA
 
 pwd = r'E:\DjangoProject\dataScientist\dataset\%s'
 dataset = 'iris.data'
@@ -78,3 +80,21 @@ print(confusion_matrix(y_test, predict))
 print(classification_report(y_test, predict))
 from sklearn.metrics import r2_score
 print(r2_score(y_test, predict))
+
+
+# PCA 
+X_reduced = PCA(n_components=3).fit_transform(X)
+
+# 3-D graph
+fig = plt.figure(1, figsize=(8, 6))
+ax = Axes3D(fig, elev=-150, azim=110)
+ax.scatter(X_reduced[:, 0], X_reduced[:, 1], X_reduced[:, 2], c=y,
+           cmap=plt.cm.Set1, edgecolor='k', s=40)
+ax.set_title("First three PCA directions")
+ax.set_xlabel("1st eigenvector")
+ax.w_xaxis.set_ticklabels([])
+ax.set_ylabel("2nd eigenvector")
+ax.w_yaxis.set_ticklabels([])
+ax.set_zlabel("3rd eigenvector")
+ax.w_zaxis.set_ticklabels([])
+plt.show()
