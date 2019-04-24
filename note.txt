@@ -21,3 +21,4 @@ https://github.com/findconvergence/text-parser
 
 # Sentimental
 1. https://www.kaggle.com/adamschroeder/countvectorizer-tfidfvectorizer-predict-comments
+2. fjavieralba.com/basic-sentiment-analysis-with-python.html
